@@ -256,7 +256,7 @@ The CSS `box-sizing` property allows us to include the padding and border in an 
 
 If you set `box-sizing: border-box;` on an element, padding and border are included in the width and height
 
-### CSS 
+### The display Property
 
 * The CSS `display` property is used to control how an HTML element is rendered on a web page.
 
