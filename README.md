@@ -288,4 +288,14 @@ The position CSS property sets how an element is positioned in a document. The t
 
 * `position: fixed;` The element is removed from the normal document flow, and no space is created for the element in the page layout.  The element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
 
-* `position: sticky;` An element with position: sticky; is positioned based on the user's scroll position.
+* `position: sticky;` An element with position: sticky; is positioned based on the user's scroll position.A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+
+### The z-index Property
+
+* The z-index CSS property specifies the stack order of a positioned element. An element with a larger z-index is always in front of an element with a lower z-index.
+* The z-index property is only applied to positioned elements, which are elements with the position property set to:
+  * relative
+  * absolute
+  * fixed
+  * sticky
+
