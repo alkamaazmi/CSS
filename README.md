@@ -299,3 +299,14 @@ The position CSS property sets how an element is positioned in a document. The t
   * fixed
   * sticky
 
+### CSS overflow Property
+
+* The overflow property specifies what should happen if content overflows an element's box.It has the following values:
+
+    * `visible`  The default value. The content is not clipped, and it may overflow the element's boundaries.
+
+    * `hidden` The overflow is clipped, and the rest of the content will be invisible. 
+
+    * `scroll` A scrollbar is added to the element so that the user can scroll to see the overflowed content.
+
+    * `auto`  A scrollbar is added to the element only when the overflowed content is greater than the element's height or width.
