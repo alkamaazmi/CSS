@@ -328,3 +328,61 @@ The position CSS property sets how an element is positioned in a document. The t
 ### CSS clear Property
 
 * The clear property specifies what should happen with the element that is next to a floating element.
+
+### CSS Flexbox( The flexible box model )
+
+* Flexbox is a one-dimensional layout method for arranging items in rows or columns.
+
+* It is a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown and/or dynamic.
+
+* `display: flex;` This value makes the element a flex container,The children of the flex container become flex items,  and the container provides a flexible layout model for arranging these items  along a main axis and a cross axis.
+
+* When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it.
+
+#### CSS align-items Property
+
+* To center our box we use the align-items property to align our item on the cross axis.
+
+```css
+div {
+  display: flex;
+  align-items: center;
+}
+```
+
+#### CSS justify-content Property
+
+* We use justify-content to align the item on the main axis.
+
+#### CSS flex-direction Property
+
+* The `flex-direction` CSS property sets how flex items are placed in the flex container.
+
+* Property Values
+  
+  * `row` Default value. The flexible items are displayed horizontally, as a row
+
+  * `row-reverse` Same as row, but in reverse order
+
+  * `column` The flexible items are displayed vertically, as a column
+
+  * `column-reverse` Same as column, but in reverse order
+
+#### CSS flex-wrap Property
+
+* he flex-wrap property specifies whether the flexible items should wrap or not.
+
+* Property Values
+
+   * `nowrap` Default value. Specifies that the flexible items will not wrap
+
+   * `wrap` Specifies that the flexible items will wrap if necessary
+
+   * `wrap-reverse` Specifies that the flexible items will wrap, if necessary, in reverse order 
+
+```css
+div {
+  display: flex;  
+  flex-wrap: wrap;
+}
+```
