@@ -310,3 +310,21 @@ The position CSS property sets how an element is positioned in a document. The t
     * `scroll` A scrollbar is added to the element so that the user can scroll to see the overflowed content.
 
     * `auto`  A scrollbar is added to the element only when the overflowed content is greater than the element's height or width.
+
+### The float Property
+
+* The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. 
+
+* The float property can have one of the following values:
+
+   * `left` The element floats to the left of its container
+   
+   * `right` The element floats to the right of its container
+
+   * `none` The element does not float (will be displayed just where it occurs in the text). This is default
+
+   * `inherit` The element inherits the float value of its parent
+
+### CSS clear Property
+
+* The clear property specifies what should happen with the element that is next to a floating element.
