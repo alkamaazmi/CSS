@@ -286,6 +286,6 @@ The position CSS property sets how an element is positioned in a document. The t
 
 * `position: absolute;` The element is removed from the normal document flow, and no space is created for the element in the page layout.  The element is positioned relative to its closest positioned ancestor (if any). However if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.Its final position is determined by the values of top, right, bottom, and left.
 
-* `position: fixed;` The element is removed from the normal document flow, and no space is created for the element in the page layout.  The element is positioned fixed to the viewport, which means it always stays in the same place even if the page is scrolled.
+* `position: fixed;` The element is removed from the normal document flow, and no space is created for the element in the page layout.  The element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.
 
 * `position: sticky;` An element with position: sticky; is positioned based on the user's scroll position.
