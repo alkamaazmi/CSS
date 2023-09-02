@@ -373,6 +373,9 @@ The position CSS property sets how an element is positioned in a document. The t
 
   * `space-evenly`  This property distributes the space between items evenly, including the space before the first item and after the last item.
 
+#### CSS align-content Property
+
+* The align-content property specifies how flex lines are distributed along the cross axis in a flexbox container.
 #### CSS flex-direction Property
 
 * The `flex-direction` CSS property sets how flex items are placed in the flex container.
@@ -416,3 +419,19 @@ div {
   flex-flow: row-reverse wrap;
 }
 ```
+
+#### The CSS Flexbox Items Properties
+
+* `align-self` Specifies the alignment for a flex item (overrides the flex container's align-items property)
+
+* `flex-grow` Specifies how much a flex item will grow relative to the rest of the flex items inside the same container
+
+* `flex-shrink` Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
+
+* `flex-basis` Specifies the initial length of a flex item
+
+* `order` Specifies the order of the flex items inside the same container
+
+* `flex` A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+
+### CSS Grid Layout Module
