@@ -435,3 +435,9 @@ div {
 * `flex` A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
 
 ### CSS Grid Layout Module
+
+* CSS Grid is a powerful layout system in CSS that allows you to create two-dimensional grid-based layouts for your web pages or applications.
+
+* It provides a more efficient and flexible way to arrange and align elements compared to traditional methods like floats or positioning.
+
+* `display: grid;`  create a grid container. The container's direct children become grid items, and you can define rows and columns to arrange these items in a grid-like structure.
