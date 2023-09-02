@@ -341,18 +341,37 @@ The position CSS property sets how an element is positioned in a document. The t
 
 #### CSS align-items Property
 
-* To center our box we use the align-items property to align our item on the cross axis.
+*  It controls the alignment of items on the cross axis, which is perpendicular to the main axis.
 
-```css
-div {
-  display: flex;
-  align-items: center;
-}
-```
+* Property Values
+
+   * `flex-start` Items are positioned at the beginning of the container.
+
+   * `flex-end` tems are positioned at the end of the container
+
+   * `center` The items are centered in the cross-axis.
+
+   * `stretch` Items are stretched to fit the container
 
 #### CSS justify-content Property
 
-* We use justify-content to align the item on the main axis.
+* It defines the alignment along the main axis.
+
+* The CSS justify-content property defines how the browser distributes space between and around content items along the main-axis of a flex container, and the inline axis of a grid container.
+
+* Property Values
+
+  * `flex-start` Default value. Items are positioned at the beginning of the container
+
+  * `flex-end` tems are positioned at the end of the container
+  
+  * `center` Items are positioned in the center of the container
+
+  * `space-between` The spacing between each pair of adjacent items is the same. first item is on the start line, last item on the end line.
+
+  * `space-around` The spacing between each pair of adjacent items is the same.The empty space before the first and after the last item equals half of the space between each pair of adjacent items.
+
+  * `space-evenly`  This property distributes the space between items evenly, including the space before the first item and after the last item.
 
 #### CSS flex-direction Property
 
@@ -384,5 +403,16 @@ div {
 div {
   display: flex;  
   flex-wrap: wrap;
+}
+```
+
+#### flex-flow
+
+* The flex-flow property is a shorthand property for flex-direction and flex-wrap.
+
+```css
+div {
+  display: flex;
+  flex-flow: row-reverse wrap;
 }
 ```
