@@ -516,3 +516,13 @@ div {
   grid-row: 1 / span 2;
 }
 ```
+
+##### The grid-area Property
+
+The grid-area property can be used as a shorthand property for the `grid-row-start`, `grid-column-start`, `grid-row-end` and the `grid-column-end` properties.
+
+```css
+.item8 {
+  grid-area: 1 / 2 / 5 / 6; //"item8" start on row-line 1 and column-line 2, and end on row-line 5 and column line 6
+}
+```
