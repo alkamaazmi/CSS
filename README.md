@@ -441,3 +441,78 @@ div {
 * It provides a more efficient and flexible way to arrange and align elements compared to traditional methods like floats or positioning.
 
 * `display: grid;`  create a grid container. The container's direct children become grid items, and you can define rows and columns to arrange these items in a grid-like structure.
+
+#### The grid-template-columns Property
+
+* The grid-template-columns property defines the number of columns in your grid layout, and it can define the width of each column.
+
+* The value is a space-separated-list, where each value defines the width of the respective column.
+
+* If you want your grid layout to contain 4 columns, specify the width of the 4 columns, or "auto" if all columns should have the same width.
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+```
+
+#### The grid-template-rows Property
+
+* The grid-template-rows property defines the height of each row.
+
+* The value is a space-separated-list, where each value defines the height of the respective row
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+}
+```
+
+#### CSS gap Property
+
+* A shorthand property for the row-gap and the column-gap properties
+
+#### CSS Grid Item Properties
+
+##### CSS grid-column Property
+
+* The grid-column property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties `grid-column-start` and `grid-column-end`.
+
+* `grid-column-start`	Specifies on which column to start displaying the item.
+
+* `grid-column-end`	Specifies on which column-line to stop displaying the item, or how many columns to span.
+
+```css
+.item1 {
+  grid-column: 1/5; //"item1" start on column 1 and end before column 5
+}
+```
+
+```css
+.item1 {
+  grid-column: 1/ span 3; //"item1" start on column 1 and span 3 columns
+}
+```
+
+##### CSS grid-row Property
+
+* The grid-row property specifies a grid item's size and location in a grid layout, and is a shorthand property for the following properties `grid-row-start` and `grid-row-end`.
+
+* `grid-row-start`	Specifies on which row to start displaying the item.	
+
+* `grid-row-end`	Specifies on which row-line to stop displaying the item, or how many rows to span.
+
+```css
+.item1 {
+  grid-row: 1 / 4;
+}
+```
+
+```css
+.item1 {
+  grid-row: 1 / span 2;
+}
+```
