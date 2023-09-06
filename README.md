@@ -566,3 +566,21 @@ div {
 }
 ```
 
+### CSS Transitions
+
+* CSS transitions allows you to change property values smoothly, over a given duration.
+
+* To create a transition effect, you must specify two things: the CSS property you want to add an effect to and the duration of the effect
+
+* This property is a shorthand for the following CSS properties:
+  * `transition-delay` Specifies a delay (in seconds) for the transition effect
+
+  * `transition-duration` Specifies how many seconds or milliseconds a transition effect takes to complete
+
+  * `transition-property` Specifies the name of the CSS property the transition effect is for
+
+  * `transition-timing-function` Specifies the speed curve of the transition effect
+
+
+
+
