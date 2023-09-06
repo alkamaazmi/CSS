@@ -526,3 +526,43 @@ The grid-area property can be used as a shorthand property for the `grid-row-sta
   grid-area: 1 / 2 / 5 / 6; //"item8" start on row-line 1 and column-line 2, and end on row-line 5 and column line 6
 }
 ```
+
+### Media Query
+
+* CSS media queries are a fundamental part of responsive web design. They allow you to apply different styles and layouts to a webpage based on various characteristics of the user's device or viewport, such as screen width, height, device orientation, and more.
+
+```css
+@media media-type and (media-feature) {
+  /* CSS rules to apply when the media query matches */
+}
+```
+* `@media` This keyword starts the media query declaration.
+
+* `media-type` Specifies the type of media for which the styles should apply. Common media types include `screen`, `print`, `speech`, and `all`.
+
+* `media-feature` Defines the condition or criteria for when the styles inside the media query should be applied. Media features can include aspects like `width`, `max-width`, `min-width`, `orientation`, `hover`, `resolution`, and many more.
+
+### CSS transform Property
+
+* The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+
+#### CSS scale Property
+
+* The scale() CSS function defines a transformation that resizes an element on the 2D plane.
+
+```css
+div {
+  scale: 0.5;
+}
+```
+
+#### CSS translate Property
+
+* The translate property allows you to change the position of elements.
+
+```css
+div {
+  transform: translate(100px, 0);
+}
+```
+
